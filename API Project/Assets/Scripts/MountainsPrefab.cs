@@ -11,10 +11,10 @@ public class MountainsPrefab : MonoBehaviour
 	public Text Description;
 	public RawImage Thumbnail;
 
-	public void Setup(PlacesList place, string category){
+	public void Setup(PlacesList place){
 		Title.text = char.ToUpper(place.Name[0]) + place.Name.Substring(1);
 		Description.text = place.Description;
-		Category.text = category;
+		Category.text = "Mountains";
 		StartCoroutine(LoadImage(place.ThumbnailUrl, texture =>{
 			Thumbnail.texture = texture;
 		}));
