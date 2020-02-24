@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\APISytem.cs" />
     <Compile Include="Assets\Scripts\LoadMountains.cs" />
+    <Compile Include="Assets\Scripts\MountainsPrefab.cs" />
     <Compile Include="Assets\Scripts\Template.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/API/API Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
